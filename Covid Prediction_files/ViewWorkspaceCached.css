@@ -1,0 +1,18 @@
+﻿/* hide the sign-in link on the cached view workspace page */
+.navbar .signInLink {
+    visibility: hidden;
+}
+
+#fxshell-tabspinner {
+    display: block;
+}
+
+#view-workspace-refresh-error {
+    display: none;
+    position: fixed;
+    top: 70px;
+    z-index: 100;
+    padding-left: 20px;
+    font-size: large;
+    color: #323232;
+}

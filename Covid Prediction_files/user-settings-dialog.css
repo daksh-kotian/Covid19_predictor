@@ -1,0 +1,81 @@
+/* NOTE: user-settings-dialog.css is generated from user-settings-dialog.scss */
+.user-settings-dialog {
+  padding: 10px;
+  /* including the dialog's padding (30px), the content should be padded by 40px */ }
+  .user-settings-dialog h2 {
+    color: #505050;
+    margin: 0;
+    /* override bootstrap */
+    margin-bottom: 25px;
+    font: 28px "Segoe UI Light"; }
+  .user-settings-dialog > div,
+  .user-settings-dialog label {
+    font: 13px "Segoe UI";
+    color: #323232; }
+  .user-settings-dialog .info {
+    margin-bottom: 20px; }
+  .user-settings-dialog .setting {
+    margin-bottom: 15px; }
+  .user-settings-dialog .setting label {
+    text-transform: none; }
+
+/* make a JQuery UI dialog look like a UxFx dialog */
+div.ui-dialog.like-fx-dialog {
+  box-sizing: content-box;
+  background-color: white;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 12px;
+  line-height: normal;
+  font-weight: normal;
+  padding: 30px 30px 80px 30px;
+  border: 0;
+  border-radius: 0;
+  margin: 0; }
+  div.ui-dialog.like-fx-dialog .ui-dialog-titlebar {
+    display: none; }
+  div.ui-dialog.like-fx-dialog .ui-dialog-content {
+    box-sizing: content-box;
+    color: black;
+    display: block;
+    font-family: "Segoe UI";
+    font-size: 12px;
+    line-height: normal;
+    overflow: hidden;
+    padding: 0;
+    /* from fx-dialog */ }
+    div.ui-dialog.like-fx-dialog .ui-dialog-content label {
+      margin-bottom: 7px;
+      display: block;
+      box-sizing: content-box; }
+    div.ui-dialog.like-fx-dialog .ui-dialog-content input[type="checkbox"] {
+      font-family: inherit;
+      /* from bootstrap.css */
+      padding: 0;
+      box-sizing: border-box;
+      margin: 4px 0 0;
+      line-height: normal;
+      /* from UxFxCss.css */
+      margin-right: 7px;
+      position: relative;
+      top: 2px; }
+  div.ui-dialog.like-fx-dialog .preload {
+    background: url("/Content/Images/fx.dialog.ok-hover.png"), url("/Content/Images/fx.dialog.close-hover.png"); }
+  div.ui-dialog.like-fx-dialog .dialog-ok {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    background-image: url("/Content/Images/fx.dialog.ok.png");
+    width: 34px;
+    height: 34px; }
+    div.ui-dialog.like-fx-dialog .dialog-ok:hover {
+      background-image: url("/Content/Images/fx.dialog.ok-hover.png"); }
+  div.ui-dialog.like-fx-dialog .dialog-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("/Content/Images/fx.dialog.close.png");
+    width: 40px;
+    height: 40px; }
+    div.ui-dialog.like-fx-dialog .dialog-close:hover {
+      background-image: url("/Content/Images/fx.dialog.close-hover.png"); }
